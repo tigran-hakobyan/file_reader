@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FileReader">
+      <UniqueIdentifier>{a5764c07-ed62-43ba-b143-8c491625b7b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileReader\Abstract">
+      <UniqueIdentifier>{58783aea-43a4-48b8-9ada-064b89626f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileReader\Concrete">
+      <UniqueIdentifier>{c0b8f7df-873a-4c19-9dee-d325d010bf9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileReader\Concrete\CSV">
+      <UniqueIdentifier>{71c24706-5a49-4855-8bfc-a5094665039d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileReader\Factory">
+      <UniqueIdentifier>{513934f7-c3ee-404d-ae8b-79a66ebef066}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Concrete\CSV\CSVFileReader.cpp">
+      <Filter>FileReader\Concrete\CSV</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Factory\FileReaderFactory.cpp">
+      <Filter>FileReader\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\FileReader\FileReader.cpp">
+      <Filter>FileReader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Abstract\AbstractFileReader.h">
+      <Filter>FileReader\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Concrete\CSV\CSVFileReader.h">
+      <Filter>FileReader\Concrete\CSV</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Factory\FileReaderFactory.h">
+      <Filter>FileReader\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FileReader\FileException.h">
+      <Filter>FileReader</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FileReader\FileReader.h">
+      <Filter>FileReader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

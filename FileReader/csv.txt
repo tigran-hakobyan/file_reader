@@ -1,0 +1,9 @@
+sys_name	name	size	type	movepoints	basic_damage	additional_damage	death_damage	death_radius	death_effect	range	radius	accuracy	shots																																															
+patrol_drone	Patrol Drone	tiny	robot	40	none	"41,shock"	"12,strike"	2.5	hit_small_explosion	5.5	0.1	70	50																																															
+cyber_spider	Cyber Spider	small	robot	60	"12,strike"	none	"40,strike"	3.5	hit_medium_g_explosion	26	0.1	20	50																																															
+cyber_spider_small	"""Small"""	tiny	robot	60	"10,strike"	"30,shock"	"12,strike"	1.5	hit_small_explosion	12	5	60	10																																															
+cyber_spider_1	Cyber Spider	small	robot	60	"12,strike"	none	"40,strike"	3.5	hit_medium_g_explosion	26	0.1	20	50																																															
+cyber_spider_2	Cyber Spider	small	robot	60	"12,strike"	none	"40,strike"	3.5	hit_medium_g_explosion	26	0.1	20	50																																															
+cyber_phantom	"Mark XII ""Phantom"""	small	robot	60	"29,strike"	none	"40,strike"	3.5	hit_medium_g_explosion	42	1.0	30	60																																															
+cyber_patrol	Cyber Patrol	tiny	robot	60	"15,strike"	none	"25,strike"	3.5	hit_small_g_explosion	32	0.1	20	64																																															
+
